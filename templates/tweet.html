@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body{
+  background:black;
+  color:white;
+}
+
+.atweet{
+  color:white;
+  height:100px;
+  width:100%;
+  background:#002145;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size:0.8em;
+}
+
+.btn{
+  color:white;
+  background:blue;
+}
+
+#send{
+  background:green;
+}
+
+</style>
+
+<body>
+
+<form action="#" method="get">
+ <input class="atweet" type="textarea" value="{{text}}" name="mytweet"/>
+ <input id="refresh" type="submit" class="btn" value="New Tweet" name="refreshbtn"/>
+ <input id="send" type="submit" class="btn" value="SendTweet" name="sendbtn"/>
+</form>
+
+<p>
+  Charlength: {{charlength}}
+</p>
+
+</body>
+</html>
